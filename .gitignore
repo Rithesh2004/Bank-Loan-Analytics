@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.*
+credentials.*
+
+# Local databases / exports
+*.db
+*.sqlite
+*.bak
+*.tmp
+
+# Unreviewed source data and BI packages
+*.pbix
+*.twbx
+*.hyper
+*.csv
+*.xlsx
+*.xls
